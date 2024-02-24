@@ -89,8 +89,6 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
-    
 
 }
 .image-caption{
@@ -99,5 +97,61 @@ body{
     font-size: 24px;
     color: #272727;
     text-align: center;
+
+}
+
+/* service section  */
+.service{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(39, 39, 39, 0.05);
+    margin: 120px;
+    padding: 70px 0 60px;
+    border-radius: 10px;
+}
+
+
+.service-each > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.service-title{
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.8);
+    text-align: center;
+    margin-top: 24px;
+}
+.sale{
+    display: flex;
+    gap: 150px;
+    background-color: rgba(229, 84, 115, 0.05);
+    border-radius: 8px;
+    padding: 70px 250px;
+
+}
+.sale-content{
+    text-align: center;
+
+
+}
+.sale-title{
+    font-weight: 800;
+    font-size: 40px;
+    color: #272727;
+    margin-bottom: 0;
+
+}
+.sale-title>span{
+    color: #E55473;
+}
+.sale-desc{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.6);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 24px;
 
 }
